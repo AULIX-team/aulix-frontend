@@ -1,8 +1,13 @@
-# Фронтенд проекта Анталия Дом 🏡
+# Фронтенд проекта AULIX-marketplace
 
 ## Над проектом трудятся:
 
-
+ - [Никита](https://github.com/LAYT73)
+ - [Игорь](https://github.com/Legend1796)
+ - [Осман](https://github.com/k1nnyyY)
+ - [NikitaNim](https://github.com/nimainikita)
+ - [Avenue](https://github.com/AvenueWork)
+ - [Настя](https://github.com/monresu)
 
 ## Как приступить к разработке?
 
