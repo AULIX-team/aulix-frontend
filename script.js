@@ -1,3 +1,5 @@
-let lol = function func() {
-  return 4;
+function isColor(color) {
+  return color=="color";
 }
+
+isColor("color");
