@@ -1,15 +1,5 @@
 {
   "rules": {
-<<<<<<< HEAD
     "indent": ["error", 2]
-=======
-    "indent": ["error", 2],
-  },
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  },
-  "env": {
-    "es6": true
->>>>>>> 159663e17979aa9d42ef4271f7bcc4cbd9431495
   }
 }
