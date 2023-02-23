@@ -1,3 +1,3 @@
 const lol = () => {
- return 1;
+ return 4;
 }
