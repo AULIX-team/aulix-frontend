@@ -1,3 +1,3 @@
 let lol = function func() {
- return 4;
+  return 4;
 }
