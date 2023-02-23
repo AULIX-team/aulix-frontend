@@ -1,5 +1,5 @@
 function isColor(color) {
- return color=="color";
+return color=="color";
 }
 
 const RED = "#f00";
