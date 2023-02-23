@@ -2,14 +2,12 @@
 
 ## Над проектом трудятся:
 
- - Белла https://github.com/bellabzhu
- - Игорь https://github.com/Legend1796
- - Геннадий https://github.com/Resaw-git
+
 
 ## Как приступить к разработке?
 
-  1. Клонировать репозиторий <code>git clone https://github.com/antaliadom-team/frontend.git</code>
-  2. Перейти в папку с проектом  <code>cd frontend</code>
+  1. Клонировать репозиторий <code>git clone https://github.com/aulix-team/aulix-frontend.git</code>
+  2. Перейти в папку с проектом  <code>cd aulix-frontend</code>
   3. Установить зависимости <code>npm install</code>
   4. Перейти в ветку разраработки <code>git checkout dev</code>
   5. Из ветки <code>dev</code> создать и перейти в ветку с названием вашей работы <code>git checkout -b feature/page-home</code>
@@ -39,5 +37,5 @@
  - Название вашей рабочей ветки должно отражать вашу работу. Например <code>feature/component-header</code> или <code>feature/ui-button</code>
  - Коммиты пишем на русском языке. Начинается коммит с глагола что сделал(а)?. Например "написал(а) маршрутизацию" или "сделал(а) функцию закрития модального окна на крестик"
  - Если необходимо исправить баг который находится в ветке <code>main</code> необходимо из этой ветки создать ветку с названием <code>hotfix/modal</code> и создать пул реквест
- - Если пул реквест принят ветка в которой велась разработка удаляется
- - Описал своими словами как мог, подробнее о git-flow можно почитать здесь https://github.com/SergeFocus/git-flow
+ - Если пул реквест принят, то ветка в которой велась разработка удаляется
+ - Подробнее о git-flow можно почитать здесь https://github.com/SergeFocus/git-flow
