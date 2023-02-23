@@ -1,4 +1,4 @@
-unction isColor(color) {
+function isColor(color) {
   return color=="color";
 }
 
