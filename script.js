@@ -1,3 +1,3 @@
-const lol = () => {
+let lol = function func() {
  return 4;
 }
