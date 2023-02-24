@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Change location
-      run: cd aulix-marketplace
+      run: cd /home/runner/work/aulix-frontend/aulix-frontend/aulix-marketplace
       working-directory: aulix-marketplace
 
     - name: Use Node.js
