@@ -23,6 +23,9 @@ jobs:
       
     - name: Instal ESlint
       run: npm install eslint --save-dev
+      
+    - name: gde mi nahui
+      run: echo $PWD
 
     - name: Run ESLint
       run: /home/runner/work/aulix-frontend/aulix-marketplace/node_modules/.bin/eslint /home/runner/work/aulix-frontend/aulix-marketplace .
