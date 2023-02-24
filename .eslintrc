@@ -1,7 +1,5 @@
 {
-  "extends": {
-    "react-app"
-  },
+  "extends":"react-app",
   "parserOptions": {
     "ecmaVersion": "latest"
   },
