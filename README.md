@@ -14,10 +14,11 @@
   1. Клонировать репозиторий <code>git clone https://github.com/aulix-team/aulix-frontend.git</code>
   2. Перейти в папку с проектом  <code>cd aulix-frontend</code>
   3. Установить зависимости <code>npm install</code>
-  4. Перейти в ветку разраработки <code>git checkout dev</code>
-  5. Из ветки <code>dev</code> создать и перейти в ветку с названием вашей работы <code>git checkout -b feature/page-home</code>
-  6. Запушить изменения с коммитом "сверстал(а) главную страницу"
-  7. Радоваться что всё прошло успешно :tada:
+  4. Установить chalk <code>npm install chalk --save</code>
+  5. Перейти в ветку разраработки <code>git checkout dev</code>
+  6. Из ветки <code>dev</code> создать и перейти в ветку с названием вашей работы <code>git checkout -b feature/page-home</code>
+  7. Запушить изменения с коммитом "сверстал(а) главную страницу"
+  8. Радоваться что всё прошло успешно :tada:
 
 ## Несколько требований к проекту
 
