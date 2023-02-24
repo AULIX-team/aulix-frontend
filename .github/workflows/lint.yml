@@ -28,4 +28,4 @@ jobs:
       run: echo $PWD
 
     - name: Run ESLint
-      run: /home/runner/work/aulix-frontend/aulix-marketplace/node_modules/.bin/eslint /home/runner/work/aulix-frontend/aulix-marketplace .
+      run: /home/runner/work/aulix-frontend/aulix-frontend/aulix-marketplace/node_modules/.bin/eslint /home/runner/work/aulix-frontend/aulix-frontend/aulix-marketplace .
