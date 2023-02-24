@@ -13,6 +13,9 @@ jobs:
       run: cd /home/runner/work/aulix-frontend/aulix-frontend/aulix-marketplace
       working-directory: aulix-marketplace
 
+    - name: gde mi nahui
+      run: echo $PWD
+      
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
@@ -24,8 +27,7 @@ jobs:
     - name: Instal ESlint
       run: npm install eslint --save-dev
       
-    - name: gde mi nahui
-      run: echo $PWD
+
 
     - name: Run ESLint
       run: /home/runner/work/aulix-frontend/aulix-frontend/aulix-marketplace/node_modules/.bin/eslint /home/runner/work/aulix-frontend/aulix-frontend/aulix-marketplace .
