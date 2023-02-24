@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Фронтенд проекта AULIX-marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Над проектом трудятся:
 
-## Available Scripts
+ - [Никита](https://github.com/LAYT73)
+ - [Игорь](https://github.com/Legend1796)
+ - [Осман](https://github.com/k1nnyyY)
+ - [NikitaNim](https://github.com/nimainikita)
+ - [Avenue](https://github.com/AvenueWork)
+ - [Настя](https://github.com/monresu)
 
-In the project directory, you can run:
+## Как приступить к разработке?
 
-### `npm start`
+  1. Клонировать репозиторий <code>git clone https://github.com/aulix-team/aulix-frontend.git</code>
+  2. Перейти в папку с проектом  <code>cd aulix-frontend</code>
+  3. Установить зависимости <code>npm install</code>
+  4. Перейти в ветку разраработки <code>git checkout dev</code>
+  5. Из ветки <code>dev</code> создать и перейти в ветку с названием вашей работы <code>git checkout -b feature/page-home</code>
+  6. Запушить изменения с коммитом "сверстал(а) главную страницу"
+  7. Радоваться что всё прошло успешно :tada:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Несколько требований к проекту
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Названия ***файлов и папок*** написаны в нижнем регистре и не имеют пробелов, для разделений используется дефис
+  - Стили портированы как модули. Если есть общие стили, они портированы в глобальную область видимости
+  - Названия функциональных компонентов написанны с ***большой буквы***
+  - Разметка портирована в JSX, заключена в <code>( )</code> и вынесена в соответствующие ей компоненты
+  - Хуки не используются внутри условных блоков и вызываются в основной функции компонента
+  - Один файл содержит в себе один функциональный компонент
+  - Файлы с утилитарными функциями имеют расширение <code>.js</code>
+  - Файлы с компонентами имеют расширение <code>.jsx</code>
+  - Имена переменных — существительные, имена функций отражают то что они делают
+  - Для именования запрещены транслит и неуместные сокращения
+  - Код оформлен по принципам программирования DRY:droplet:(не повторяй сам себя) и KISS:kiss:(пиши проще и понятней)
 
-### `npm test`
+### Доп информация про CodeStyle
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Табуляция = 2 пробела
+- Закрываем конструкции точкой с запятой
+- Ковычки используем двойные
+- Используем camelCase
+- Без накидывания лишних пробелов в коде
+- Убирать неиспользуемые переменные
 
-### `npm run build`
+Остальные правила лежат в конфиге, на нарушение правил будет ссылаться тест в Action вкладке под названием ESLint
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Пару слов о том как работать с git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - Проект содержит основую ветку <code>main</code>. Она предназначена для релизного состояния приложения
+ - Ветка <code>dev</code> предназначена для слияния ваших работ
+ - Для того чтобы смержить изменения в ветку <code>dev</code> необходимо из этой ветки создать ветку с вашей работой и создать пул реквест
+ - Название вашей рабочей ветки должно отражать вашу работу. Например <code>feature/component-header</code> или <code>feature/ui-button</code>
+ - Коммиты пишем на русском языке. Начинается коммит с глагола что сделал(а)?. Например "написал(а) маршрутизацию" или "сделал(а) функцию закрития модального окна на крестик"
+ - Если необходимо исправить баг который находится в ветке <code>main</code> необходимо из этой ветки создать ветку с названием <code>hotfix/modal</code> и создать пул реквест
+ - Если пул реквест принят, то ветка в которой велась разработка удаляется
+ - Подробнее о git-flow можно почитать здесь https://github.com/SergeFocus/git-flow
