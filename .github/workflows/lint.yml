@@ -20,6 +20,9 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+      
+    - name: Instal ESlint
+      run: npm install eslint --save-dev
 
     - name: Run ESLint
       run: /home/runner/work/aulix-frontend/aulix-marketplace/node_modules/.bin/eslint /home/runner/work/aulix-frontend/aulix-marketplace .
