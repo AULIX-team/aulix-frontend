@@ -11,7 +11,6 @@ jobs:
 
     - name: Change location
       run: cd /home/runner/work/aulix-frontend/aulix-frontend/aulix-marketplace
-      working-directory: aulix-marketplace
 
     - name: gde mi nahui
       run: echo $PWD
