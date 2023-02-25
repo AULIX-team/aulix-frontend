@@ -1,0 +1,18 @@
+.card-of-product {
+  display: flex;
+}
+
+.card-of-product__sel-prof-info {
+  min-width: 25%;
+  margin-right: 2%;
+}
+
+.card-of-product__pic-sel {
+  min-width: 37%;
+  margin-right: 2%;
+}
+
+.card-of-product__main-card-info {
+  min-width: 33%;
+  margin-right: 2%;
+}

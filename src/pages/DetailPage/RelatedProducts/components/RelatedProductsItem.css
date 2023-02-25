@@ -1,0 +1,36 @@
+.related-products__item {
+  margin-top: 20px;
+  min-width: 13.5vw;
+  max-width: 16vw;
+  margin-right: 20px;
+}
+
+.related-products__item-content{
+  padding: 10px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.related-products__item-content:hover{
+  background-color: rgba(229, 241, 255, 0.4);
+  border-radius: 5px;
+}
+
+.related-products__item-content-title {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(29, 29, 29);
+  margin-top: 10px;
+}
+
+.related-products__item-content-amount {
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(147, 147, 147);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
