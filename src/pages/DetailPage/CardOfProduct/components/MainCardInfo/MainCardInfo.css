@@ -1,0 +1,127 @@
+.main-card-info {
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.main-card-info__stock-text{
+  color: #00B517;
+  margin-left: 8px;
+}
+
+.main-card-info__stock{
+  display: flex;
+}
+
+.main-card-info__about{
+  margin-top: 10px;
+}
+
+.main-card-info__about-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main-card-info__about-stats {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.main-card-info__about-stats__stars {
+  display: flex;
+  align-items: center;
+}
+
+.main-card-info__about-stats__stars-amount{
+  color: #FF9017;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.main-card-info__about-stats__circle {
+  width: 7px;
+  height: 7px;
+  background-color: #DBDBDB;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-card-info__about-stats__comments {
+  display: flex;
+  align-items: center;
+  color: #787A80;
+}
+
+.main-card-info__about-stats__comments-txt {
+  margin-left: 6px;
+}
+
+.main-card-info__costs {
+  margin-top: 15px;
+  background-color: #FFF0DF;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.main-card-info__costs-vr{
+  background-color: #afafaf;
+  width:1px;
+  min-height: 60px;
+  margin-right: 10px;
+}
+
+.main-card-info__costs-item{
+  min-width: 29%;
+}
+
+.main-card-info__costs-item__cost{
+  margin-bottom: 10px;
+}
+
+.main-card-info__costs-item__pcs{
+  font-weight: 100;
+  opacity: 0.5;
+}
+
+#cost1 {
+  color: #FA3434;
+}
+
+.main-card-info__description {
+  margin-top: 30px;
+}
+
+.main-card-info__description-item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-card-info__description-item-name{
+  font-weight: 100;
+  font-size: 18px;
+  color: rgba(0,0,0,0.4);
+  width: 30%;
+}
+
+.main-card-info__description-item-txt{
+  font-weight: 100;
+  font-size: 18px;
+  color: rgba(0,0,0,0.6);
+}
+
+.main-card-info__description-hr {
+  margin-top: 20px;
+}
+
+.main-card-info__description-hr-item {
+  border: 1px solid rgb(205, 205, 205);
+  border-bottom-width: 0;
+}
+
+/*FF9017*/

@@ -15,6 +15,13 @@ const CardOfProduct = () => {
       </div>
       <div className="card-of-product__sel-prof-info">
         <SellerProfileInfo />
+        <div className="card-of-product__sel-prof-info__checkbox">
+          <input type="checkbox" id="heart-checkbox" />
+          <label htmlFor="heart-checkbox">
+            Save for later
+          </label>
+        </div>
+
       </div>
     </section>
   );
