@@ -8,10 +8,10 @@ const SellerProfileInfo = () => {
     <Container>
       <div className="seller-profile-info">
         <div className="seller-profile-info__main-info">
-          <img src={require("../assets/images/icon_sel.png")} width="20%" alt="icon" />
+          <img src={require("../assets/images/icon_sel.png")} className="seller-profile-info__main-info__avatar" alt="icon" />
           <div className="seller-profile-info__main-info__title">
-            <h6>Supplier</h6>
-            <h6>Guanjoi Trading LLC</h6>
+            <h6 className="seller-profile-info__main-info__title-f">Supplier</h6>
+            <h6 className="seller-profile-info__main-info__title-s">Guanjoi Trading LLC</h6>
           </div>
         </div>
         <div className="seller-profile-info__div-hr">

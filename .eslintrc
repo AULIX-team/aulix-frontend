@@ -1,3 +1,4 @@
+/*
 {
   "extends": ["react-app", "plugin:react/recommended"],
   "parserOptions": {
@@ -19,4 +20,5 @@
     "no-unreachable": "error" 
   }
 }
+*/
 

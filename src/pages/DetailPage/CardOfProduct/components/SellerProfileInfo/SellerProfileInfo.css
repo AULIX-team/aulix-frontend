@@ -8,6 +8,16 @@
   line-height: 24px;
 }
 
+.seller-profile-info__main-info__title-f {
+  font-size: 18px;
+  margin: 0;
+}
+
+.seller-profile-info__main-info__title-s {
+  font-size: 18px;
+  margin: 0;
+}
+
 .seller-profile-info__div-hr {
   margin-top: 20px;
 }
@@ -24,6 +34,16 @@
   margin-top: 20px;
   display: flex;
   align-items: center;
+}
+
+.seller-profile-info__main-info__avatar{
+  width: 20%;
+}
+
+@media(max-width:1500px){
+  .seller-profile-info__main-info__avatar{
+    width: 10%;
+  }
 }
 
 .seller-profile-info__status-item__title {
@@ -68,3 +88,4 @@
 #btn2:hover {
   background-color: #f7f7f7;
 }
+
