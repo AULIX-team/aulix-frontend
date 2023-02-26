@@ -16,7 +16,7 @@
     "no-var": "error",
     "no-trailing-spaces": "error",
     "no-multi-spaces": "error",
-    "no-unreachable": "error" 
+    "no-unreachable": "error"
   }
 }
 

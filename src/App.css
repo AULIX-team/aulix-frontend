@@ -1,0 +1,12 @@
+.search-align {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-icons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding-top: 5px;
+}
