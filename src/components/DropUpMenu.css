@@ -1,0 +1,45 @@
+.dropup {
+  position: relative;
+}
+
+.dropup__button {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dropup__button h3 {
+  color: #606060;
+}
+
+.dropup__menu {
+  position: absolute;
+  bottom: 95%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 8px;
+  z-index: 1;
+}
+
+.dropup__menu button {
+  display: block;
+  background-color: transparent;
+  color: #333333;
+  border: none;
+  padding: 8px 16px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropup__menu button:hover {
+  background-color: #f2f2f2;
+}

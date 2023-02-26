@@ -1,0 +1,18 @@
+.socials {
+  max-width: 280px;
+}
+
+.socials p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.socials__icons {
+  display: flex;
+  gap: 10px; 
+}
+
+.socials__icons *{
+  width: 35px;
+  height: 35px;
+}
