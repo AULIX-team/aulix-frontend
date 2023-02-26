@@ -1,0 +1,17 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.FAQ {
+  display: flex;
+  gap: 75px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
