@@ -1,0 +1,50 @@
+/*component's FilterItem styles*/
+.filter-item{
+  border-top: 1px solid #DEE2E7;
+  width: 230px;
+  margin-top: 20px;
+}
+.filter-item:first-child{
+  margin-top: 0;
+}
+/*item's heading styles*/
+.filter-item h6{
+  font-weight: 600;
+  margin: 15px 0;
+}
+/*item's subheading*/
+.filter-item ul{
+  color:#1c1c1c;
+}
+
+.filter-item ul li{
+  padding: 8px 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.filter-item ul li:hover{
+  color:#0D6EFD;
+}
+/*item's checkbox styles*/
+/*Убираем стандартный чекбокс*/
+label > input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+/*Стили для label*/
+label > span {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+/*Создаем свой чекбокс*/
+
+
+
+
+
+
+

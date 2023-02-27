@@ -1,0 +1,26 @@
+
+.checkbox-filter label>span::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.checkbox-filter label>input:not(:disabled):active+span::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/*Активный чекбокс*/
+.checkbox-filter label > input:checked + span:before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("../../../pages/ProductListPage/icons/checkmark-filter.png");
+  background-size: 100% 100%;
+}

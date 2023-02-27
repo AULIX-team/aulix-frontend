@@ -1,0 +1,77 @@
+.price-input{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.price-input .field{
+  width: 110px;
+}
+
+.price-input .field input{
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #DEE2E7;
+}
+
+.slider{
+  height: 5px;
+  position: relative;
+  background: #AFD0FF;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+.slider-progress{
+  height: 100%;
+  background: #0D6EFD;
+}
+/*=================================================*/
+.range-input{
+  position: relative;
+}
+.range-input input{
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top:-5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border:1px solid #AFD0FF;
+  border-radius: 100%;
+  background: #fff;
+  pointer-events: auto;
+  -webkit-appearance: none;
+}
+input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border:1px solid #AFD0FF;
+  border-radius: 100%;
+  background: #fff;
+  pointer-events: auto;
+  -webkit-appearance: none;
+}
+
+.button-range{
+  margin-top: 15px;
+  text-align: center;
+}
+.button-range button{
+  border: 1px solid #DEE2E7;
+  background: #fff;
+  padding:10px 15px;
+  border-radius: 6px;
+  color:#0D6EFD;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .2s;
+}
+.button-range button:hover{
+  border-color: #0D6EFD;
+}
